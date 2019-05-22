@@ -1,4 +1,4 @@
-package com.example.dc21;
+package com.example.dc3;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.dc21", appContext.getPackageName());
+        assertEquals("com.example.dc3.0", appContext.getPackageName());
     }
 }

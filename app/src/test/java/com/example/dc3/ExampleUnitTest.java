@@ -1,4 +1,4 @@
-package com.example.dc21;
+package com.example.dc3;
 
 import org.junit.Test;
 

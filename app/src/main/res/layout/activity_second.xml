@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="50dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:text="WIFI/BLE/IMU定时采集"
+            android:text="WIFI/BLE/IMU动态采集"
             android:textSize="20dp"
             android:layout_weight="2"/>
 
@@ -33,39 +33,12 @@
             android:layout_weight="1"/>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="采样时间："
-            android:textSize="20dp" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/Duration"
-            android:layout_weight="1"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="min" />
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp">
 
@@ -78,7 +51,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/device"/>
+            android:id="@+id/device1"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -88,7 +61,7 @@
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/head"
+            android:id="@+id/head1"
             android:layout_weight="1"/>
     </LinearLayout>
 
@@ -108,7 +81,7 @@
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/inputX"
+            android:id="@+id/inputX1"
             android:layout_weight="1"/>
         <TextView
             android:layout_width="wrap_content"
@@ -123,7 +96,7 @@
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/inputY"
+            android:id="@+id/inputY1"
             android:layout_weight="1"/>
         <TextView
             android:layout_width="wrap_content"
@@ -139,7 +112,7 @@
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/inputZ"
+            android:id="@+id/inputZ1"
             android:layout_weight="1"/>
         <TextView
             android:layout_width="wrap_content"
@@ -148,32 +121,32 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/start"
+        android:id="@+id/start1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:text="开始"
         android:textSize="20dp" />
 
     <Chronometer
-        android:id="@+id/chronometer"
+        android:id="@+id/chronometer1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="50dp"/>
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FF9E9EA2"
-        android:id="@+id/rpList"
+        android:id="@+id/rpList1"
         android:divider="#FF070707">
 
     </ListView>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/model"
+        android:id="@+id/model1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
