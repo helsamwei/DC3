@@ -1,14 +1,13 @@
-package com.example.dc21.BLE_Senor;
+package com.example.dc3.BLE_Senor;
 
 import java.util.ArrayList;
-import com.example.dc21.BLE_Senor.iBeaconClass.iBeacon;
+import com.example.dc3.BLE_Senor.iBeaconClass.iBeacon;
 
 /**
  * 用于存放和读取iBeacon的ArrayList
  */
 public class BleList {
-    private ArrayList<iBeacon> mDevice = new ArrayList
-            <iBeacon>();
+    private ArrayList<iBeacon> mDevice = new ArrayList<iBeacon>();
 
     /**
      * 在iBeacon列表中添加扫描到的iBeacon
@@ -45,6 +44,13 @@ public class BleList {
      */
     public int getCount(){
         return mDevice.size();
+    }
+
+    /**
+     * 清空列表
+     */
+    public void clear(){
+        mDevice.clear();
     }
 
 }

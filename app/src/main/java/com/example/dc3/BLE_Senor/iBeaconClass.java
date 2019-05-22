@@ -1,4 +1,4 @@
-package com.example.dc21.BLE_Senor;
+package com.example.dc3.BLE_Senor;
 
 import android.bluetooth.BluetoothDevice;
 

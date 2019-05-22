@@ -1,4 +1,4 @@
-package com.example.dc21.RP_Class;
+package com.example.dc3.RP_Class;
 
 import java.util.ArrayList;
 
@@ -12,8 +12,9 @@ public class RPListClass {
      * 添加扫描的RP坐标
      *
      */
-    public void addString(String x,String y,String z){
-        RP_Each = "RP:(" + x + "," + y + "," + z + ")";
+    public void addString(String x,String y,String z,String Device,String Head){
+        RP_Each = "RP:(" + x + "," + y + "," + z +")"+ "-" +
+                Device + "-" + Head ;
         RP_List.add(RP_Each);
     }
 
